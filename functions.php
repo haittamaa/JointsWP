@@ -47,4 +47,7 @@ require_once(get_template_directory().'/functions/login.php');
 require_once(get_template_directory().'/functions/admin.php'); 
 
 // Load Caldera custom filters  - replace bootstrap by foundation
-//require_once(get_template_directory().'/assets/functions/caldera-filters.php'); 
+//require_once(get_template_directory().'/functions/caldera-filters.php'); 
+
+// Enable which template file feature
+require_once(get_template_directory().'/functions/which-template.php');
