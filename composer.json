@@ -1,0 +1,8 @@
+{
+    "name": "Wordpress-extensions/JointsWP",
+    "type": "wordpress-theme",
+    "version": "4.0",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
