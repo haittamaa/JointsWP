@@ -31,7 +31,7 @@ require_once(get_template_directory().'/functions/translation/translation.php');
 // Adds site styles to the WordPress editor
 require_once(get_template_directory().'/functions/editor-styles.php'); 
 
-// Remove 4.2 Emoji Support
+// Remove Emoji Support
 require_once(get_template_directory().'/functions/disable-emoji.php'); 
 
 // Related post function - no need to rely on plugins
@@ -47,4 +47,7 @@ require_once(get_template_directory().'/functions/login.php');
 require_once(get_template_directory().'/functions/admin.php'); 
 
 // Load Caldera custom filters  - replace bootstrap by foundation
-//require_once(get_template_directory().'/assets/functions/caldera-filters.php'); 
+require_once(get_template_directory().'/functions/caldera-filters.php'); 
+
+// Enable which template file feature
+// require_once(get_template_directory().'/functions/which-template.php');
