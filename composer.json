@@ -1,5 +1,5 @@
 {
-    "name": "Wordpress-extensions/JointsWP",
+    "name": "haittamaa/JointsWP",
     "type": "wordpress-theme",
     "version": "4.0",
     "require": {
