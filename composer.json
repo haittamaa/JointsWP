@@ -1,7 +1,6 @@
 {
     "name": "haittamaa/jointswp",
     "type": "wordpress-theme",
-    "version": "4.0",
     "require": {
         "composer/installers": "~1.0"
     }
